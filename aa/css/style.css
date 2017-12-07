@@ -33,13 +33,13 @@ body {
     height: 100%;
     position: relative;
 }
-.s1 img:nth-of-type(1){
+.s1 .header img:nth-of-type(1){
     width: 30px;
     position: absolute;
     top: 120px;
     left: 30px;
 }
-.s1 img:nth-of-type(2){
+.s1 .header img:nth-of-type(2){
     width: 60px;
     position: absolute;
     top: 90px;
@@ -62,4 +62,39 @@ body {
     position: absolute;
     top: 165px;
     left: 15%;
+}
+.s1 .main{
+    position: relative;
+    top: 30%;
+}
+.s1 .main img:nth-of-type(1){
+    width: 50%;
+
+
+}
+.s1 .main img:nth-of-type(2){
+    width: 80%;
+}
+.main .img9{
+    background: url(../img/9.png);
+    background-size: 100%;
+    width: 70%;
+    font-weight: bolder;
+    line-height: 30px;
+    margin-left: 15%;
+}
+.footer {
+    position: absolute;
+    top: 72%;
+    left: 20%;
+}
+.footer p {
+    color: #00d7b2;
+    font-weight: bolder;
+    line-height: 15px;
+}
+.footer img {
+    position: absolute;
+    bottom: -150px;
+    left: -200px;
 }
