@@ -33,7 +33,7 @@ body {
     background: #fff;
 }
 /*第一屏*/
-.s1,s2{
+.s1,.s2{
     background: url("../img/bj.png");
     height: 100%;
     position: relative;
