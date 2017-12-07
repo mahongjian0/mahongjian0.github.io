@@ -1,3 +1,8 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 html, body {
     position: relative;
     height: 100%;
@@ -74,27 +79,40 @@ body {
 }
 .s1 .main img:nth-of-type(2){
     width: 80%;
+    margin-bottom: 20px;
 }
 .main .img9{
     background: url(../img/9.png);
     background-size: 100%;
-    width: 70%;
+    width: 207px;
+    height: 24px;
     font-weight: bolder;
-    line-height: 30px;
-    margin-left: 15%;
+    margin: auto;
 }
-.footer {
-    position: absolute;
-    top: 72%;
-    left: 20%;
-}
-.footer p {
+.s1 .footer {
     color: #00d7b2;
-    font-weight: bolder;
-    line-height: 15px;
-}
-.footer img {
     position: absolute;
-    bottom: -150px;
-    left: -200px;
+    width: 100%;
+    bottom: 0;
+}
+
+.s1 .footer p:nth-of-type(2) {
+    margin-bottom: 35px;
+}
+
+.s1 .footer p:nth-of-type(3) {
+    height: 70px;
+}
+
+.s1 .footer img {
+    position: absolute;
+    height: 70px;
+}
+
+.s1 .footer img:nth-of-type(1) {
+    left: 0;
+}
+
+.s1 .footer img:nth-of-type(2) {
+    left: -95px;
 }
