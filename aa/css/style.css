@@ -43,30 +43,35 @@ body {
     position: absolute;
     top: 120px;
     left: 30px;
+    animation: fadeOut infinite;
 }
 .s1 .header img:nth-of-type(2){
     width: 60px;
     position: absolute;
     top: 90px;
     right: 35px;
+    animation: fadeOut infinite;
 }
 .s1 img:nth-of-type(3){
     width: 50px;
     position: absolute;
     bottom: 185px;
     left: 25px;
+    animation: fadeOut infinite;
 }
 .s1 img:nth-of-type(4){
-    width: 40px;
+    width: 45px;
     position: absolute;
-    bottom: 218px;
-    right: 50px;
+    bottom: 210px;
+    right: 45px;
+    animation: fadeOut infinite;
 }
 .s1 img:nth-of-type(5){
     width: 70%;
     position: absolute;
     top: 165px;
     left: 15%;
+    animation: pulse infinite;
 }
 .s1 .main{
     position: relative;
