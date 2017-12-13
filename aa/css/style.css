@@ -69,7 +69,7 @@ body {
     width: 10px;
 }
 /*第一屏*/
-.s1,.s2,.s3,.s4,.s5{
+.s1,.s2,.s3,.s4,.s5,.s6,.s7{
     background: url("../img/bj.png");
     height: 100%;
     position: relative;
@@ -198,7 +198,7 @@ body {
     background-size: contain;
     margin-left: 66px;
     margin-top: 10px;
-    top: 0;
+    top: 0%;
 }
 
 .s2 div {
@@ -641,4 +641,512 @@ body {
     margin-left: 66px;
     margin-top: 10px;
     top: 0;
+}
+.s5 .main-one{
+    position: absolute;
+    top: 25%;
+    left: 7%;
+}
+.s5 .main-one img:nth-of-type(1) {
+    height: 175px;
+    width: 140px;
+}
+.s5 .main-one img:nth-of-type(2){
+    position: absolute;
+    width: 130px;
+    top: 0%;
+    left: 2%;
+}
+.s5 .main-one p{
+    position: absolute;
+    top: 70%;
+    left: 13%;
+    font-size: 16px;
+}
+.s5 .main-one span{
+    position: absolute;
+    top: 82%;
+    font-size: 16px;
+    left: 50%;
+    background: -moz-linear-gradient(left, #00ecfc, #00fd9d); /*Mozilla*/
+    background: -webkit-gradient(linear, 0 50%, 100% 50%, from(#00ecfc), to(#00fd9d)); /*Old gradient for webkit*/
+    background: -webkit-linear-gradient(left, #00ecfc, #00fd9d); /*new gradient for Webkit*/
+    background: -o-linear-gradient(left, #00ecfc, #00fd9d); /*Opera11*/
+    width: 120px;
+    height: 25px;
+    border-radius: 10px;
+    color: #000000;
+
+    font-weight: bold;
+    line-height: 25px;
+    display: inline-block;
+
+    bottom: -10px;
+
+    margin-left: -60px;
+}
+.s5 .main-two{
+    position: absolute;
+    top: 25%;
+    left: 55%;
+}
+.s5 .main-two img:nth-of-type(1) {
+    height: 175px;
+    width: 140px;
+}
+.s5 .main-two img:nth-of-type(2){
+    position: absolute;
+    width: 130px;
+    top: 0%;
+    left: 2%;
+}
+.s5 .main-two p{
+    position: absolute;
+    top: 70%;
+    left: 13%;
+    font-size: 16px;
+}
+.s5 .main-two span{
+    position: absolute;
+    top: 82%;
+    font-size: 16px;
+    left: 50%;
+    background: -moz-linear-gradient(left, #00ecfc, #00fd9d); /*Mozilla*/
+    background: -webkit-gradient(linear, 0 50%, 100% 50%, from(#00ecfc), to(#00fd9d)); /*Old gradient for webkit*/
+    background: -webkit-linear-gradient(left, #00ecfc, #00fd9d); /*new gradient for Webkit*/
+    background: -o-linear-gradient(left, #00ecfc, #00fd9d); /*Opera11*/
+    width: 120px;
+    height: 25px;
+    border-radius: 10px;
+    color: #000000;
+
+    font-weight: bold;
+    line-height: 25px;
+    display: inline-block;
+
+    bottom: -10px;
+
+    margin-left: -60px;
+}
+.s5 .main-three{
+    position: absolute;
+    top: 55%;
+    right: 55%;
+}
+.s5 .main-three img:nth-of-type(1) {
+    height: 175px;
+    width: 140px;
+}
+.s5 .main-three img:nth-of-type(2){
+    position: absolute;
+    width: 130px;
+    top: 0%;
+    left: 2%;
+}
+.s5 .main-three p{
+    position: absolute;
+    top: 70%;
+    left: 13%;
+    font-size: 16px;
+}
+.s5 .main-three span{
+    position: absolute;
+    top: 82%;
+    font-size: 16px;
+    left: 50%;
+    background: -moz-linear-gradient(left, #00ecfc, #00fd9d); /*Mozilla*/
+    background: -webkit-gradient(linear, 0 50%, 100% 50%, from(#00ecfc), to(#00fd9d)); /*Old gradient for webkit*/
+    background: -webkit-linear-gradient(left, #00ecfc, #00fd9d); /*new gradient for Webkit*/
+    background: -o-linear-gradient(left, #00ecfc, #00fd9d); /*Opera11*/
+    width: 120px;
+    height: 25px;
+    border-radius: 10px;
+    color: #000000;
+
+    font-weight: bold;
+    line-height: 25px;
+    display: inline-block;
+
+    bottom: -10px;
+
+    margin-left: -60px;
+}
+.s5 .main-three{
+    position: absolute;
+    top: 55%;
+    right: 55%;
+}
+.s5 .main-three img:nth-of-type(1) {
+    height: 175px;
+    width: 140px;
+}
+.s5 .main-three img:nth-of-type(2){
+    position: absolute;
+    width: 130px;
+    top: 0%;
+    left: 2%;
+}
+.s5 .main-three p{
+    position: absolute;
+    top: 70%;
+    left: 13%;
+    font-size: 16px;
+}
+.s5 .main-three span{
+    position: absolute;
+    top: 82%;
+    font-size: 16px;
+    left: 50%;
+    background: -moz-linear-gradient(left, #00ecfc, #00fd9d); /*Mozilla*/
+    background: -webkit-gradient(linear, 0 50%, 100% 50%, from(#00ecfc), to(#00fd9d)); /*Old gradient for webkit*/
+    background: -webkit-linear-gradient(left, #00ecfc, #00fd9d); /*new gradient for Webkit*/
+    background: -o-linear-gradient(left, #00ecfc, #00fd9d); /*Opera11*/
+    width: 120px;
+    height: 25px;
+    border-radius: 10px;
+    color: #000000;
+
+    font-weight: bold;
+    line-height: 25px;
+    display: inline-block;
+
+    bottom: -10px;
+
+    margin-left: -60px;
+}
+
+.s5 .main-three{
+     position: absolute;
+     top: 55%;
+     right: 55%;
+ }
+.s5 .main-three img:nth-of-type(1) {
+    height: 175px;
+    width: 140px;
+}
+.s5 .main-three img:nth-of-type(2){
+    position: absolute;
+    width: 130px;
+    top: 0%;
+    left: 2%;
+}
+.s5 .main-three p{
+    position: absolute;
+    top: 70%;
+    left: 13%;
+    font-size: 16px;
+}
+.s5 .main-three span{
+    position: absolute;
+    top: 82%;
+    font-size: 16px;
+    left: 50%;
+    background: -moz-linear-gradient(left, #00ecfc, #00fd9d); /*Mozilla*/
+    background: -webkit-gradient(linear, 0 50%, 100% 50%, from(#00ecfc), to(#00fd9d)); /*Old gradient for webkit*/
+    background: -webkit-linear-gradient(left, #00ecfc, #00fd9d); /*new gradient for Webkit*/
+    background: -o-linear-gradient(left, #00ecfc, #00fd9d); /*Opera11*/
+    width: 120px;
+    height: 25px;
+    border-radius: 10px;
+    color: #000000;
+
+    font-weight: bold;
+    line-height: 25px;
+    display: inline-block;
+
+    bottom: -10px;
+
+    margin-left: -60px;
+}
+.s5 .main-four{
+    position: absolute;
+    top: 55%;
+    left: 55%;
+}
+.s5 .main-four img:nth-of-type(1) {
+    height: 175px;
+    width: 140px;
+}
+.s5 .main-four img:nth-of-type(2){
+    position: absolute;
+    width: 130px;
+    top: 0%;
+    left: 2%;
+}
+.s5 .main-four p{
+    position: absolute;
+    top: 70%;
+    left: 13%;
+    font-size: 16px;
+}
+.s5 .main-four span{
+    position: absolute;
+    top: 82%;
+    font-size: 16px;
+    left: 50%;
+    background: -moz-linear-gradient(left, #00ecfc, #00fd9d); /*Mozilla*/
+    background: -webkit-gradient(linear, 0 50%, 100% 50%, from(#00ecfc), to(#00fd9d)); /*Old gradient for webkit*/
+    background: -webkit-linear-gradient(left, #00ecfc, #00fd9d); /*new gradient for Webkit*/
+    background: -o-linear-gradient(left, #00ecfc, #00fd9d); /*Opera11*/
+    width: 120px;
+    height: 25px;
+    border-radius: 10px;
+    color: #000000;
+
+    font-weight: bold;
+    line-height: 25px;
+    display: inline-block;
+
+    bottom: -10px;
+
+    margin-left: -60px;
+}
+/*第五屏*/
+.s6 {
+    color: #00f8ca;
+    background:url("../img/bj.png");
+    width: 100%;
+}
+
+.s6 h2 {
+    font-size: 26px;
+    position: relative;
+    top: 12%;
+}
+
+.s6 small {
+    margin-top: 10px;
+    display: block;
+    font-size: 14px;
+    letter-spacing: 5px;
+}
+
+.s6 h2::before,
+.s6 h2::after {
+    content: "";
+    width: 80px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+}
+
+.s6 h2::before {
+    background: url(../img/14.png);
+    background-size: contain;
+    margin-left: -95px;
+    margin-top: 10px;
+}
+
+.s6 h2::after {
+    background: url(../img/13.png);
+    background-size: contain;
+    margin-left: 66px;
+    margin-top: 10px;
+    top: 0;
+}
+.s6 .main-one{
+    position: absolute;
+    top: 25%;
+    left: 20%;
+}
+.s6 .main-one img:nth-of-type(1){
+    height: 25px;
+    width: 250px;
+}
+
+.s6 .main-one img:nth-of-type(2){
+    position: absolute;
+    width: 270px;
+    height: 80px;
+    left: 0%;
+}
+.s6 .main-one p:nth-of-type(1){
+    color: black;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    font-size: 16px;
+}
+.s6 .main-one p:nth-of-type(2){
+    position: absolute;
+    top: 130%;
+    font-size: 14px;
+    left: 7%;
+}
+.s6 .main-one p:nth-of-type(3){
+    position: absolute;
+    top: 200%;
+    font-size: 14px;
+    left: 8%;
+}
+.s6 .main-one p:nth-of-type(4){
+    position: absolute;
+    top: 270%;
+    font-size: 14px;
+    left: 8%;
+}
+.s6 .main-two{
+    position: absolute;
+    top: 44%;
+    left: 20%;
+}
+.s6 .main-two img:nth-of-type(1){
+    height: 25px;
+    width: 250px;
+}
+
+.s6 .main-two img:nth-of-type(2){
+    position: absolute;
+    width: 270px;
+    height: 80px;
+    left: 0%;
+}
+.s6 .main-two p:nth-of-type(1){
+    color: black;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    font-size: 16px;
+}
+.s6 .main-two p:nth-of-type(1){
+    color: black;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    font-size: 16px;
+}
+.s6 .main-two p:nth-of-type(2){
+    position: absolute;
+    top: 130%;
+    font-size: 14px;
+    left: 7%;
+}
+.s6 .main-two p:nth-of-type(3){
+    position: absolute;
+    top: 200%;
+    font-size: 14px;
+    left: 8%;
+}
+.s6 .main-two p:nth-of-type(4){
+    position: absolute;
+    top: 270%;
+    font-size: 14px;
+    left: 8%;
+}
+.s6 .main-three{
+    position: absolute;
+    top: 63%;
+    left: 20%;
+}
+.s6 .main-three img:nth-of-type(1){
+    height: 25px;
+    width: 250px;
+}
+
+.s6 .main-three img:nth-of-type(2){
+    position: absolute;
+    width: 270px;
+    height: 80px;
+    left: 0%;
+}
+.s6 .main-three p:nth-of-type(1){
+    color: black;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    font-size: 16px;
+}
+.s6 .main-three p:nth-of-type(2){
+    position: absolute;
+    top: 130%;
+    font-size: 14px;
+    left: 7%;
+}
+.s6 .main-three p:nth-of-type(3){
+    position: absolute;
+    top: 200%;
+    font-size: 14px;
+    left: 7%;
+}
+.s6 .main-three p:nth-of-type(4){
+    position: absolute;
+    top: 270%;
+    font-size: 14px;
+    left: 8%;
+}
+/*第七屏*/
+h2 {
+    color: #00d7b2;
+    font-size: 26px;
+    position: relative;
+    top: 12%;
+}
+
+small {
+    margin-top: 10px;
+    display: block;
+    font-size: 14px;
+    letter-spacing: 5px;
+}
+
+.s7 h2::before,
+.s7 h2::after {
+    content: "";
+    width: 80px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+}
+
+.s7 h2::before {
+    background: url(../img/14.png);
+    background-size: contain;
+    margin-left: -95px;
+    margin-top: 10px;
+}
+
+.s7 h2::after {
+    background: url(../img/13.png);
+    background-size: contain;
+    margin-left: 66px;
+    margin-top: 10px;
+    top: 0;
+}
+.s7 .main{
+    position: absolute;
+    top: 25%;
+    width: 80%;
+    height: 57%;
+    left: 50%;
+    margin-left: -40%;
+}
+.s7 .main img{
+    width: 100%;
+    position: absolute;
+    left: 0;
+}
+.s7 .main .btn{
+    width: 90%;
+    height: 70%;
+    margin-left: 5%;
+    margin-top: 7%;
+}
+.s7 .main .btn input{
+    width: 100%;
+    height: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border:1px solid #00f2ca;
+    background:#fff;
+}
+.s7 .main .btn button{
+    width: 100%;
+    height: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    background:#00f2ca;
+    color: #fff;
+}
+.s7 .main p:nth-of-type(1){
+    margin-top:5%;
 }
