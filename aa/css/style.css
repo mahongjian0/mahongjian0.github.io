@@ -69,7 +69,7 @@ body {
     width: 10px;
 }
 /*第一屏*/
-.s1,.s2,.s3,.s4{
+.s1,.s2,.s3,.s4,.s5{
     background: url("../img/bj.png");
     height: 100%;
     position: relative;
@@ -426,7 +426,6 @@ body {
 }
 .s4 div {
     position: absolute;
-    top: 25%;
     width: 80%;
     height: 55%;
     left: 50%;
@@ -438,6 +437,208 @@ body {
     position: absolute;
     height: 100%;
     left: 0;
+    top: 25%;
+}
+.s4 .h3-one{
+    padding-top: 20px;
+}
+.s4 .h3-one img{
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    left: 10%;
+}
+.s4 .h3-one span{
+    position: absolute;
+    left: 20%;
+    font-size: 20px;
+    top: 25%;
 }
 
+.s4 .h3-two span{
+    position: absolute;
+    left: 65%;
+    color: #0097d0;
+    font-size: 20px;
+    top: 25%;
 
+}
+.s4 .h3-two img{
+    height: 25px;
+    width: 25px;
+    left: 55%;
+}
+.main-one{
+    position: absolute;
+    top: 25%;
+}
+.main-one p:nth-of-type(1) img{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: -11%;
+}
+.main-one p:nth-of-type(1) span{
+    position: absolute;
+    top: 25%;
+    left: 0;
+}
+.main-one p:nth-of-type(2) img{
+    height: 15px;
+    width: 80%;
+    position: absolute;
+    top: 38%;
+}
+.main-one p:nth-of-type(2) span{
+    position: absolute;
+    right: 3%;
+    top: 37%;
+    font-size: 14px;
+}
+.main-one p:nth-of-type(3) img{
+    height: 15px;
+    width: 40%;
+    position: absolute;
+    top: 47%;
+}
+.main-one p:nth-of-type(3) span{
+    position: absolute;
+    right: 35%;
+    top: 45%;
+    font-size: 16px;
+}
+.main-two{
+    position: absolute;
+    top: 50%;
+}
+.main-two p:nth-of-type(1) img{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: -11%;
+    top: 20%;
+}
+.main-two p:nth-of-type(1) span{
+    position: absolute;
+    top: 19%;
+    left: 0;
+}
+.main-two p:nth-of-type(2) img{
+    height: 15px;
+    width: 67%;
+    position: absolute;
+    top: 35%;
+}
+.main-two p:nth-of-type(2) span{
+    position: absolute;
+    right: 10%;
+    top: 34%;
+    font-size: 14px;
+}
+.main-two p:nth-of-type(3) img{
+    height: 15px;
+    width: 40%;
+    position: absolute;
+    top: 47%;
+}
+.main-two p:nth-of-type(3) span{
+    position: absolute;
+    right: 40%;
+    top: 46%;
+    font-size: 14px;
+}
+.main-three{
+    position: absolute;
+    top: 70%;
+}
+.main-three p:nth-of-type(1) img{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: -11%;
+    top: 20%;
+}
+.main-three p:nth-of-type(1) span{
+    position: absolute;
+    top: 19%;
+    left: 0;
+}
+.main-three p:nth-of-type(2) img{
+    height: 15px;
+    width: 60%;
+    position: absolute;
+    top: 35%;
+}
+.main-three p:nth-of-type(2) span{
+    position: absolute;
+    right: 20%;
+    top: 34%;
+    font-size: 14px;
+}
+.main-three p:nth-of-type(3) img{
+    height: 15px;
+    width: 40%;
+    position: absolute;
+    top: 47%;
+}
+.main-three p:nth-of-type(3) span{
+    position: absolute;
+    right: 45%;
+    top: 46%;
+    font-size: 14px;
+}
+.s4 .footer{
+    position: absolute;
+    top: 60%;
+}
+.s4 .footer p{
+    font-size: 14px;
+    position: absolute;
+    top: 80%;
+}
+
+/*第四屏*/
+.s5 {
+    color: #00f8ca;
+    background:url("../img/bj.png");
+    width: 100%;
+
+    background-size:contain;
+}
+
+.s5 h2 {
+    font-size: 26px;
+    position: relative;
+    top: 12%;
+}
+
+.s5 small {
+    margin-top: 10px;
+    display: block;
+    font-size: 14px;
+    letter-spacing: 5px;
+}
+
+.s5 h2::before,
+.s5 h2::after {
+    content: "";
+    width: 80px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+}
+
+.s5 h2::before {
+    background: url(../img/14.png);
+    background-size: contain;
+    margin-left: -95px;
+    margin-top: 10px;
+}
+
+.s5 h2::after {
+    background: url(../img/13.png);
+    background-size: contain;
+    margin-left: 66px;
+    margin-top: 10px;
+    top: 0;
+}
