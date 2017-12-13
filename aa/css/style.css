@@ -227,9 +227,9 @@ body {
     margin-bottom: 10px;
 }
 
-.s2 div p:nth-of-type(1) {
-    padding-top: 20px;
-}
+/*.s2 div p:nth-of-type(1) {*/
+    /*!*padding-top: 20px;*!*/
+/*}*/
 
 .s2 div span {
     /*渐变色*/
