@@ -69,7 +69,7 @@ body {
     width: 30px;
 }
 /*第一屏*/
-.s1,.s2{
+.s1,.s2,.s3{
     background: url("../img/qq.png");
     height: 100%;
     position: relative;
@@ -107,3 +107,131 @@ body {
     width: 79%;
     height: 87%;
 }
+.s2 img:nth-of-type(2){
+    position: absolute;
+    top: 40%;
+    left: 14%;
+    width: 71%;
+}
+.s2 .main-one h2{
+    font-size: 130px;
+    position: absolute;
+    top: 6%;
+    left: 15%;
+    font-family: 方正行楷简体;
+}
+.s2 .main-one p{
+    position: absolute;
+    font-size: 47px;
+    width: 60%;
+    top: 17%;
+    left: 14%;
+    font-family: 方正行楷简体;
+}
+.s2 .main-two img{
+    width: 22%;
+    height: 12%;
+    position: absolute;
+    top: 46%;
+    left: 58%
+}
+.s2 .main-two p:nth-of-type(1){
+    position: absolute;
+    top: 46%;
+    left: 12%;
+    font-size: 70px;
+    font-family: 方正行楷简体;
+}
+.s2 .main-two p:nth-of-type(2){
+    position: absolute;
+    top: 54%;
+    left: 20%;
+    font-size: 68px;
+    font-family: 方正行楷简体;
+}
+.s2 .main-three p:nth-of-type(1){
+    position: absolute;
+    top: 69%;
+    left: 12%;
+    font-size: 70px;
+    font-family: 方正行楷简体;
+}
+.s2 .main-three p:nth-of-type(2){
+    position: absolute;
+    top: 75%;
+    left: 20%;
+    font-size: 68px;
+    font-family: 方正行楷简体;
+}
+.s3 img:nth-of-type(1){
+    position: absolute;
+    top: 4%;
+    left: 10%;
+    width: 79%;
+    height: 87%;
+}
+.s3 h2{
+    position: absolute;
+    top: 11%;
+    left: 32%;
+    font-size: 80px;
+    font-family: 方正行楷简体;
+}
+.s3 p{
+    position: absolute;
+    top: 21%;
+    left: 21%;
+    font-size: 44px;
+    width: 59%;
+    font-family: 方正行楷简体;
+}
+.s4{
+    background: url("../img/cc.png");
+    height: 100%;
+    position: relative;
+    background-size:cover;
+}
+.s4 img:nth-of-type(1){
+    position: absolute;
+    left: 13%;
+    width: 70%;
+}
+.s4 p:nth-of-type(1){
+    position: absolute;
+    font-size: 86px;
+    width: 45%;
+    top: 5%;
+    left: 26%;
+    font-family: 方正行楷简体;
+}
+.s4 img:nth-of-type(2){
+    position: absolute;
+    height: 65%;
+    top: 24%;
+
+}
+.s4 p:nth-of-type(2){
+    position: absolute;
+    top: 23%;
+    font-size: 38px;
+    left: 56%
+}
+.s4 p:nth-of-type(3){
+    position: absolute;
+    top: 40%;
+    font-size: 38px;
+    left: 10%;
+}
+.s4 p:nth-of-type(4){
+    position: absolute;
+    top: 63%;
+    font-size: 38px;
+    left: 56%
+}
+.s4 p:nth-of-type(5){
+    position: absolute;
+    top: 86%;
+    font-size: 38px;
+    left: 10%;
+}
+
