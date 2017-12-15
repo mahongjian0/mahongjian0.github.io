@@ -69,18 +69,18 @@ body {
     width: 30px;
 }
 /*第一屏*/
-.s1,.s2,.s3{
+.s1,.s2,.s3,.s5{
     background: url("../img/qq.png");
     height: 100%;
     position: relative;
     background-size:cover;
 }
 .s1 .logo img:nth-of-type(1){
-    width: 30%;
-    height:60%;
+    width: 300px;
+    height:1040px;
     position: absolute;
     top: 18%;
-    right: 33%;
+    right: 32%;
 }
 .s1 .logo img:nth-of-type(2){
     width: 250px;
@@ -104,14 +104,14 @@ body {
     position: absolute;
     top: 4%;
     left: 10%;
-    width: 79%;
-    height: 87%;
+    width: 790px;
+    height: 1490px;
 }
 .s2 img:nth-of-type(2){
     position: absolute;
     top: 40%;
     left: 14%;
-    width: 71%;
+    width: 700px;
 }
 .s2 .main-one h2{
     font-size: 130px;
@@ -129,8 +129,8 @@ body {
     font-family: 方正行楷简体;
 }
 .s2 .main-two img{
-    width: 22%;
-    height: 12%;
+    width: 210px;
+    height: 185px;
     position: absolute;
     top: 46%;
     left: 58%
@@ -167,8 +167,8 @@ body {
     position: absolute;
     top: 4%;
     left: 10%;
-    width: 79%;
-    height: 87%;
+    width: 800px;
+    height: 1400px;
 }
 .s3 h2{
     position: absolute;
@@ -194,7 +194,7 @@ body {
 .s4 img:nth-of-type(1){
     position: absolute;
     left: 13%;
-    width: 70%;
+    width: 680px;
 }
 .s4 p:nth-of-type(1){
     position: absolute;
@@ -206,7 +206,7 @@ body {
 }
 .s4 img:nth-of-type(2){
     position: absolute;
-    height: 65%;
+    height: 1100px;
     top: 24%;
 
 }
@@ -233,5 +233,26 @@ body {
     top: 86%;
     font-size: 38px;
     left: 10%;
+}
+.s5 h1:nth-of-type(1){
+    position: absolute;
+    font-size: 170px;
+    top: 20%;
+    left: 41%;
+    font-style: oblique;
+}
+.s5 h1:nth-of-type(2){
+    position: absolute;
+    font-size: 170px;
+    top: 40%;
+    left: 41%;
+    font-style: oblique;
+}
+.s5 h1:nth-of-type(3){
+    position: absolute;
+    font-size: 170px;
+    top: 60%;
+    left: 41%;
+    font-style: oblique;
 }
 
